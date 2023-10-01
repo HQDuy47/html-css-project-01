@@ -513,15 +513,117 @@ a {
 .subscription .body {
   display: flex;
   align-items: center;
+  position: relative;
   height: 370px;
   border-radius: 20px;
   background: #063183;
 }
 
 .subscription .info {
+  width: 671px;
+  max-width: 100%;
   padding: 0 80px;
 }
 
 .subscription .sub-title {
-  
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.subscription .desc {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 187.5%;
+  opacity: 0.75;
+}
+
+.subscription .btn {
+  margin-top: 20px;
+  min-width: 151px;
+  background-color: #fff;
+  color: #002366;
+}
+
+.subscription .image {
+  position: absolute;
+  bottom: 0;
+  right: 221px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 55px;
+  padding: 50px 0 58px;
+  background-color: #f9f9f9;
+}
+
+.footer .row {
+  display: flex;
+}
+
+.footer .row-top {
+  gap: 185px;
+}
+
+.footer .heading {
+  color: #1c1c1d;
+  font-family: Lato, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.footer .list,
+.footer .desc {
+  margin-top: 42px;
+}
+
+.footer .item {
+  margin-top: 18px;
+}
+
+.footer .item a,
+.footer .desc {
+  color: #7a7a7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.footer .desc {
+  white-space: normal;
+  line-height: 1.75;
+}
+
+.footer .social {
+  display: flex;
+  margin-top: 40px;
+}
+
+.footer .social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 3px;
+}
+
+.footer .social-link:hover {
+  background-color: #e4e4e4;
+}
+
+.footer .row-bottom {
+  margin-top: 81px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .copyright {
+  color: #c2c2c2;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
